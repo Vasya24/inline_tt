@@ -1,0 +1,34 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1px 1px;
+    outline: 1px solid red;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.gallery > div {
+    outline: 1px solid blue;
+    height: 30px;
+}
+.slider {
+    grid-area: 1 / 1 / 2 / 5;
+}
+.side-pics {
+    grid-area: 1 / 5 / 2 / 7;
+    display: grid;
+}
+.bottom-menu {
+    grid-area: 2 / 1 / 3 / 7;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    gap: 0 1px;
+}
+.menu-item {
+    width: 1fr;
+    gap: 0 1px;
+    outline: 1px solid aqua;
+    height: 30px;
+}
