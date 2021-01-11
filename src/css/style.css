@@ -1,0 +1,60 @@
+.page-header {
+    display: flex;
+}
+nav {
+    display: flex;
+}
+nav img {
+    display: block;
+    justify-content: space-between;
+}
+.nav-left-item, .nav-right-item {
+    font-size: 24px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    height: 46px;
+    width: 161px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    background-color: #fff;
+    box-sizing: border-box;
+    transition: background-color .25s linear, border .25s linear, color .25s linear;
+    cursor: pointer;
+}
+.nav-left-item:hover, .nav-right-item:hover {
+    background-color: #ef7f1a;
+    border: 3px solid #ffffff;
+    color: #fff;
+}
+/*.dropdown {*/
+/*    background-color: #ef7f1a;*/
+/*    border: 3px solid #ffffff;*/
+/*    color: #fff;*/
+/*}*/
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    align-self: center;
+
+}
+.search {
+    width: 19px;
+    height: 19px;
+    display: block;
+    align-self: center;
+    cursor: pointer;
+}
+.cart {
+    width: 24px;
+    height: 22px;
+    display: block;
+    padding-left: 51px;
+    align-self: center;
+    cursor: pointer;
+}
