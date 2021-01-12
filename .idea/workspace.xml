@@ -65,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610365675603</updated>
-      <workItem from="1610365681197" duration="26928000" />
+      <workItem from="1610365681197" duration="34335000" />
     </task>
     <task id="LOCAL-00001" summary="Header done">
       <created>1610369703713</created>
@@ -95,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610441751964</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Cards 95% done">
+      <created>1610460865975</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610460865980</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +124,7 @@
     <MESSAGE value="Made a grid template for gallery section. I'll be back there later because it's very complicated" />
     <MESSAGE value="Success with sizes inputs customization" />
     <MESSAGE value="Forgotten .gitignore file added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Forgotten .gitignore file added" />
+    <MESSAGE value="Cards 95% done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cards 95% done" />
   </component>
 </project>
