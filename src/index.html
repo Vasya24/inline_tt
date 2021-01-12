@@ -41,9 +41,9 @@
 <div class="offers">
     <header class="offers-header">
         <div class="offers-tabs">
-        <div class="tab">Лучшие предложения недели</div>
-        <div class="tab">Новинки</div>
-        <div class="tab">Рекомендуем</div>
+            <label class="offers-tab" ><input type="radio" name="tab" value="offers" checked><span>Лучшие предложения недели</span></label>
+            <label class="offers-tab" ><input type="radio" name="tab" value="new"><span>Новинки</span></label>
+            <label class="offers-tab" ><input type="radio" name="tab" value="recommend"><span>Рекомендации</span></label>
         </div>
         <div class="offers-arrows">
             <div class="arrow">&larr;</div>
@@ -53,7 +53,16 @@
     <div class="offers-cards">
         <div class="card">
             <div class="card-img-top">
-                <img src="img/pic3.png" alt="pic">
+                <div class="info-tags">
+                    <div class="flag france">
+                        <div class="stripe blue"></div>
+                        <div class="stripe white"></div>
+                        <div class="stripe red"></div>
+                    </div>
+                    <div class="good-tag">
+                        new
+                    </div>
+                </div>
             </div>
             <div class="card-body">
                 <h3>Кожаная юбка</h3>
@@ -61,8 +70,39 @@
                 <footer>
                     <div class="sizes">
                         <div class="size-tags">
-                            <label class="size-tag" ><input type="radio" name="size" value="44" checked><div>44</div></label>
-                            <label class="size-tag" ><input type="radio" name="size" value="45"><div>45</div></label>
+                            <label class="size-tag" ><input type="radio" name="size-first" value="44" checked><span>44</span></label>
+                        </div>
+                        <h6>Размер</h6>
+                    </div>
+                    <div class="purchase">
+                        <span class="price">790 р.</span>
+                        <img src="img/cart.png" alt="cart" class="to-buy">
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img-top">
+                <div class="info-tags">
+                    <div class="flag italy">
+                        <div class="stripe green"></div>
+                        <div class="stripe white"></div>
+                        <div class="stripe red"></div>
+                    </div>
+                    <div class="good-tag">
+                        sale
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <h3>Платье в горох с поясом</h3>
+                <p>Описание: Полосатая кофта из полосатого трикотажа, без молнии</p>
+                <footer>
+                    <div class="sizes">
+                        <div class="size-tags">
+                            <label class="size-tag" ><input type="radio" name="size-second" value="44" checked><span>44</span></label>
+                            <label class="size-tag" ><input type="radio" name="size-second" value="46"><span>46</span></label>
+                            <label class="size-tag" ><input type="radio" name="size-second" value="48"><span>48</span></label>
 
                         </div>
                         <h6>Размер</h6>
@@ -75,18 +115,73 @@
             </div>
         </div>
         <div class="card">
-            <div class="card-img-top"></div>
-            <div class="card-body"></div>
+            <div class="card-img-top">
+                <div class="info-tags">
+                    <div class="flag france">
+                        <div class="stripe blue"></div>
+                        <div class="stripe white"></div>
+                        <div class="stripe red"></div>
+                    </div>
+                    <div class="good-tag">
+                        new
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <h3>Розовое платье</h3>
+                <p>Описание: Полосатая кофта из полосатого трикотажа, без молнии</p>
+                <footer>
+                    <div class="sizes">
+                        <div class="size-tags">
+                            <label class="size-tag" ><input type="radio" name="size-third" value="44" checked><span>44</span></label>
+                            <label class="size-tag" ><input type="radio" name="size-third" value="46"><span>46</span></label>
+                            <label class="size-tag" ><input type="radio" name="size-third" value="48"><span>48</span></label>
+
+
+                        </div>
+                        <h6>Размер</h6>
+                    </div>
+                    <div class="purchase">
+                        <span class="price">790 р.</span>
+                        <img src="img/cart.png" alt="cart" class="to-buy">
+                    </div>
+                </footer>
+            </div>
         </div>
         <div class="card">
-            <div class="card-img-top"></div>
-            <div class="card-body"></div>
+            <div class="card-img-top">
+                <div class="info-tags">
+                    <div class="flag france">
+                        <div class="stripe blue"></div>
+                        <div class="stripe white"></div>
+                        <div class="stripe red"></div>
+                    </div>
+                    <div class="good-tag">
+                        new
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <h3>Полосатая кофта</h3>
+                <p>Описание: Полосатая кофта из полосатого трикотажа, без молнии</p>
+                <footer>
+                    <div class="sizes">
+                        <div class="size-tags">
+                            <label class="size-tag" ><input type="radio" name="size-fourth" value="44" checked><span>44</span></label>
+                        </div>
+                        <h6>Размер</h6>
+                    </div>
+                    <div class="purchase">
+                        <span class="price">790 р.</span>
+                        <img src="img/cart.png" alt="cart" class="to-buy">
+                    </div>
+                </footer>
+            </div>
         </div>
-        <div class="card">
-            <div class="card-img-top"></div>
-            <div class="card-body"></div>
-        </div>
+
     </div>
 </div>
+<script src="js/script.js"></script>
+
 </body>
 </html>

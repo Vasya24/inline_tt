@@ -2,7 +2,6 @@
     width: 90%;
     margin-right: auto;
     margin-left: auto;
-
 }
 .offers-header {
     display: flex;
@@ -10,17 +9,72 @@
 }
 .offers-tabs {
     display: flex;
+    margin-bottom: 31px;
+}
+.offers-tab input {
+    display: none;
+}
+.offers-tab input + span {
+    font-size: 36px;
+    color: #000;
+    font-weight: 400;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    cursor: pointer;
+}
+.offers-tab input:checked + span {
+    font-size: 36px;
+    color: #ef7f1a;
+    text-decoration: underline;
+    font-weight: 400;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.offers-tab:nth-child(2) {
+    margin-left: 54px;
+    margin-right: 63px;
 }
 .offers-arrows {
     display: flex;
+    width: 123px;
+    justify-content: space-evenly;
+}
+.arrow {
+    cursor: pointer;
+}
+.offers-cards {
+    display: flex;
+    justify-content: space-between;
 }
 .card {
     width: 400px;
 }
-.card-img-top img {
+.card:nth-last-child(n+2) {
+    margin-right: 17px;
+}
+.card-img-top {
     position: relative;
     width: 100%;
+    height: 529px;
     margin-bottom: 20px;
+    background-position: center center;
+}
+.card:nth-child(1) .card-img-top {
+    background-image: url('../img/pic3.png');
+}
+.card:nth-child(2) .card-img-top {
+    background-image: url('../img/pic4.png');
+    background-position: center 1px;
+}
+.card:nth-child(3) .card-img-top {
+    background-image: url('../img/pic5.png');
+}
+.card:nth-child(4) .card-img-top {
+    background-image: url('../img/pic6.png');
+    background-position: -175px 0;
+}
+.card-body footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
 }
 .card-body h3 {
     margin-bottom: 18px;
@@ -34,14 +88,17 @@
     color: #000000;
     font-weight: 300;
     font-family: "Clear Sans", sans-serif;
+    margin-bottom: 14px;
 }
 .size-tag {
     display: inline-block;
+    margin-bottom: 9px;
+
 }
 .size-tag input {
     display: none;
 }
-.size-tag input + div {
+.size-tag input + span {
     display: inline-block;
     width: 46px;
     height: 18px;
@@ -53,11 +110,67 @@
     color: #bababa;
     font-weight: 700;
     font-family: "Clear Sans", sans-serif;
-    line-height: 16px;
+    line-height: 20px;
     cursor: pointer;
 }
-.size-tag input:checked + div {
+.size-tag input:checked + span {
     border: 1px solid #ef7f1a;
     color: #ef7f1a;
 }
-/*Попробовать поиграться с псевдоклассами*/
+.sizes h6 {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.price {
+    font-size: 36px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.to-buy {
+    padding-left: 17px;
+    cursor: pointer;
+}
+.info-tags {
+    position: relative;
+    top: 52px;
+    left: 41px;
+    z-index: 3;
+}
+.good-tag {
+    width: 46px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 4px;
+    background-color: #000000;
+    font-size: 14px;
+    letter-spacing: -1px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Clear Sans", sans-serif;
+    text-align: center;
+}
+.flag {
+    width: 21px;
+    height: 13px;
+    display: flex;
+    margin-bottom: 18px;
+}
+.stripe {
+    width: 7px;
+    height: 100%;
+}
+.red {
+    background-color: #ff1f00;
+}
+.white {
+    background-color: #fff;
+}
+.blue {
+    background-color: #4441e2;
+}
+.green {
+    background-color: #009246;
+}
