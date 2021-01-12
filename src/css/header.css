@@ -52,4 +52,5 @@ nav img {
     padding-left: 51px;
     align-self: center;
     cursor: pointer;
+    filter: brightness(0%);
 }

@@ -5,8 +5,7 @@
     gap: 1px 1px;
     outline: 1px solid red;
     width: 90%;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto 60px auto;
 }
 .gallery > div {
     outline: 1px solid blue;
