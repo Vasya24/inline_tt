@@ -66,7 +66,7 @@
       <updated>1610365675603</updated>
       <workItem from="1610365681197" duration="39909000" />
       <workItem from="1610477249106" duration="9640000" />
-      <workItem from="1610546987627" duration="12383000" />
+      <workItem from="1610546987627" duration="12399000" />
     </task>
     <task id="LOCAL-00001" summary="Header done">
       <created>1610369703713</created>
@@ -187,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610567292542</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Pre-finish commit">
+      <created>1610567326800</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1610567326800</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,6 +226,7 @@
     <MESSAGE value="99% done" />
     <MESSAGE value="Margins fixed" />
     <MESSAGE value="DONE" />
-    <option name="LAST_COMMIT_MESSAGE" value="DONE" />
+    <MESSAGE value="Pre-finish commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pre-finish commit" />
   </component>
 </project>
