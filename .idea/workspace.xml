@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447965f7-c913-4c19-8e2f-1e72614c9bdd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +66,7 @@
       <updated>1610365675603</updated>
       <workItem from="1610365681197" duration="39909000" />
       <workItem from="1610477249106" duration="9640000" />
-      <workItem from="1610546987627" duration="12334000" />
+      <workItem from="1610546987627" duration="12383000" />
     </task>
     <task id="LOCAL-00001" summary="Header done">
       <created>1610369703713</created>
@@ -182,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610564992081</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="DONE">
+      <created>1610567292542</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1610567292542</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +218,7 @@
     <MESSAGE value="Responsive layout is almost done" />
     <MESSAGE value="99% done" />
     <MESSAGE value="Margins fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Margins fixed" />
+    <MESSAGE value="DONE" />
+    <option name="LAST_COMMIT_MESSAGE" value="DONE" />
   </component>
 </project>
