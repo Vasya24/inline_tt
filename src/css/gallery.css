@@ -1,33 +1,160 @@
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 1px 1px;
-    outline: 1px solid red;
     width: 90%;
-    margin: 0 auto 60px auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .gallery > div {
-    outline: 1px solid blue;
-    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+}
+.gallery-top {
+    display: flex;
 }
 .slider {
-    grid-area: 1 / 1 / 2 / 5;
+    position: relative;
+    /*width: 1109px;*/
+    height: 540px;
+    width: 60%;
+    border: 1px solid #fff;
+    overflow: hidden;
+}
+.slide {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.slide-back {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    background-size: cover;
+}
+.slide-front {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+.slide-content {
+    position: relative;
+    top: 30%;
+}
+.slide-front-text {
+    width: 637px;
+    height: 325px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 15%;
+}
+.slide-front-text h1 {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    margin-bottom: 50px;
+}
+.slide-front-text button {
+    width: 160px;
+    height: 46px;
+    background-color: #ef7f1a;
+    border: 3px solid #f2f2f2;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+.arrows {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.arrows div {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 48px;
+    border: 3px solid #5b523a;
+}
+.arrows div > a {
+    color: #5e543a;
+    font-size: 20px;
+}
+.slide > .slide-front {
+    background: linear-gradient(0deg, #000000 0%, rgba(0,0,0,0) 100%);
+}
+#slide1 > .slide-back {
+    background-image: url('../img/slides/slide1.png');
+}
+#slide2 > .slide-back {
+    background-image: url('../img/slides/slide2.jpg');
+}
+#slide3 > .slide-back {
+    background-image: url('../img/slides/slide3.jpg');
+}
+#slide4 > .slide-back {
+    background-image: url('../img/slides/slide4.jpg');
 }
 .side-pics {
-    grid-area: 1 / 5 / 2 / 7;
-    display: grid;
+    display: flex;
+    position: relative;
+    width: 40%;
 }
-.bottom-menu {
-    grid-area: 2 / 1 / 3 / 7;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 1fr;
-    gap: 0 1px;
+.side-pic {
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    width: 50%;
+    height: 100%;
+    position: relative;
 }
-.menu-item {
-    width: 1fr;
-    gap: 0 1px;
-    outline: 1px solid aqua;
-    height: 30px;
+.side-pic-back {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+#side-pic1 > .side-pic-back {
+    background-image: url("../img/pic1.png");
+}
+#side-pic2 > .side-pic-back {
+    background-image: url("../img/pic2.png");
+}
+.side-pic-front {
+    position: absolute;
+    z-index: 2;
+    background: linear-gradient(0deg, #000000 0%, rgba(0,0,0,0) 100%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.side-pic-content {
+    text-align: center;
+    position: relative;
+    top: 70%
+}
+.side-pic-content h3 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    margin-bottom: 19px;
+}
+.side-pic-content a {
+    font-size: 16px;
+    color: #ef7f1a;
+    font-weight: 700;
+    font-family: "Clear Sans", sans-serif;
+    text-decoration: underline;
 }

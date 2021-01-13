@@ -1,25 +1,23 @@
 {
-  "name": "inline",
+  "name": "insales",
   "version": "1.0.0",
-  "description": "Test task for Inline",
+  "description": "Test task for Insales",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vasya24/inline_tt.git"
+    "url": "git+https://github.com/Vasya24/insales_tt.git"
   },
   "author": "Vasya24",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vasya24/inline_tt/issues"
+    "url": "https://github.com/Vasya24/insales_tt/issues"
   },
-  "homepage": "https://github.com/Vasya24/inline_tt#readme",
+  "homepage": "https://github.com/Vasya24/insales_tt#readme",
   "devDependencies": {
     "browser-sync": "^2.26.13"
   },
-  "dependencies": {
-    "swiper": "^6.4.5"
-  }
+  "dependencies": {}
 }

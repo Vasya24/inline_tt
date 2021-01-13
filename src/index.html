@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/gallery.css">
     <link rel="stylesheet" href="css/offers.css">
-    <title>Inline test by Vasiliy Smirnov</title>
+    <title>InSales test by Vasiliy Smirnov</title>
 </head>
 <body>
 <header class="page-header">
@@ -26,15 +26,99 @@
         </nav>
     </header>
 <div class="gallery">
-    <div class="slider"></div>
-    <div class="side-pics"></div>
-    <div class="bottom-menu">
-        <div class="menu-item"></div>
-        <div class="menu-item"></div>
-        <div class="menu-item"></div>
-        <div class="menu-item"></div>
-        <div class="menu-item"></div>
-        <div class="menu-item"></div>
+    <div class="gallery-top">
+        <div class="slider">
+            <div class="slide" id="slide1">
+                <div class="slide-back"></div>
+                <div class="slide-front">
+                    <div class="slide-content">
+                <div class="arrows">
+                    <div class="arrow-left"><a href="#slide4">&larr;</a></div>
+                    <div class="arrow-right"><a href="#slide2">&rarr;</a></div>
+                </div>
+                    <div class="slide-front-text">
+                <h1>Monoteka-group — лучшие моменты
+                    жизни вместе с нашими платьями</h1>
+                    <button>Купить</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" id="slide2">
+                <div class="slide-back"></div>
+                <div class="slide-front">
+                    <div class="slide-content">
+                    <div class="arrows">
+                        <div class="arrow-left"><a href="#slide1">&larr;</a></div>
+                        <div class="arrow-right"><a href="#slide3">&rarr;</a></div>
+                    </div>
+                    <div class="slide-front-text">
+                    <h1>Это - заголовок второго слайда</h1>
+                    <button>Тык</button>
+                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" id="slide3">
+                <div class="slide-back"></div>
+                <div class="slide-front">
+                    <div class="slide-content">
+                    <div class="arrows">
+                        <div class="arrow-left"><a href="#slide2">&larr;</a></div>
+                        <div class="arrow-right"><a href="#slide4">&rarr;</a></div>
+                    </div>
+                    <div class="slide-front-text">
+                    <h1>А тут мы можем наблюдать заголовок третьего слайда</h1>
+                    <button>Жмяк</button>
+                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide" id="slide4">
+                <div class="slide-back"></div>
+                <div class="slide-front">
+                    <div class="slide-content">
+                    <div class="arrows">
+                        <div class="arrow-left"><a href="#slide3">&larr;</a></div>
+                        <div class="arrow-right"><a href="#slide1">&rarr;</a></div>
+                    </div>
+                    <div class="slide-front-text">
+                    <h1>Ну и напоследок - заголовок четвертого слайда</h1>
+                    <button>Хватит</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    <div class="side-pics">
+        <div class="side-pic" id="side-pic1">
+            <div class="side-pic-back"></div>
+            <div class="side-pic-front">
+                <div class="side-pic-content">
+                    <h3>Пиджаки</h3>
+                    <a href="#">в наших магазинах</a>
+                </div>
+            </div>
+        </div>
+        <div class="side-pic" id="side-pic2">
+            <div class="side-pic-back"></div>
+            <div class="side-pic-front">
+                <div class="side-pic-content">
+                    <h3>Деловой стиль</h3>
+                    <a href="#">узнать больше</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="gallery-bottom">
+        <div class="bottom-item"></div>
+        <div class="bottom-item"></div>
+        <div class="bottom-item"></div>
+        <div class="bottom-item"></div>
+        <div class="bottom-item"></div>
+        <div class="bottom-item"></div>
     </div>
 </div>
 <div class="offers">
@@ -267,7 +351,7 @@
 
     </div>
 </div>
-<script src="js/script.js" async></script>
+<script src="script.js" async></script>
 
 </body>
 </html>
