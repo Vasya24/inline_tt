@@ -291,18 +291,19 @@
     .offers-cards {
         flex-wrap: wrap;
     }
-    .card:nth-last-child(n+1) {
+    .card {
+        position: relative;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
-    .card {
-        width: 280px;
-        /*margin-left: auto;*/
-        /*margin-right: auto;*/
+    .card:nth-last-child(n+2) {
+        margin-right: auto;
+        margin-left: auto;
     }
-
     .card-overlay {
-        width: 280px;
+        width: 100%;
+        height: 100%;
     }
     .card-body p {
         font-size: 12px
