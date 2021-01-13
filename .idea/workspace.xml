@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447965f7-c913-4c19-8e2f-1e72614c9bdd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/offers.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/offers.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +66,7 @@
       <updated>1610365675603</updated>
       <workItem from="1610365681197" duration="39909000" />
       <workItem from="1610477249106" duration="9640000" />
-      <workItem from="1610546987627" duration="9163000" />
+      <workItem from="1610546987627" duration="9243000" />
     </task>
     <task id="LOCAL-00001" summary="Header done">
       <created>1610369703713</created>
@@ -139,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610563810935</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Margins fixed">
+      <created>1610564083253</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1610564083253</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +175,7 @@
     <MESSAGE value="Basically done 100%. Time to mane a responsive layout" />
     <MESSAGE value="Responsive layout is almost done" />
     <MESSAGE value="99% done" />
-    <option name="LAST_COMMIT_MESSAGE" value="99% done" />
+    <MESSAGE value="Margins fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Margins fixed" />
   </component>
 </project>
