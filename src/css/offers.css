@@ -291,14 +291,14 @@
     .offers-cards {
         flex-wrap: wrap;
     }
-    .card:nth-last-child(n+2) {
-        margin-left: unset;
-        margin-right: unset;
+    .card:nth-last-child(n+1) {
+        margin-left: auto;
+        margin-right: auto;
     }
     .card {
         width: 280px;
-        margin-left: auto;
-        margin-right: auto;
+        /*margin-left: auto;*/
+        /*margin-right: auto;*/
     }
 
     .card-overlay {
