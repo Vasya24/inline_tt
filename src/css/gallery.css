@@ -188,3 +188,15 @@
     font-family: "Yanone Kaffeesatz", sans-serif;
     text-transform: uppercase;
 }
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .slide-front-text {
+        width: 90%;
+    }
+    .slide-front-text h1 {
+        font-size: 44px;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+}

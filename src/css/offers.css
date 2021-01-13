@@ -245,3 +245,35 @@
     text-align: center;
     text-decoration: underline;
 }
+
+@media only screen and (min-width : 1224px) and (max-width: 1439px) {
+    .card-body p {
+        font-size: 14px
+    }
+    .price {
+        font-size: 28px
+    }
+    .size-tag input+span {
+        width: 38px
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .offers-cards {
+        flex-wrap: wrap;
+    }
+    .card-overlay {
+        width: 400px;
+    }
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    .offers-cards {
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 300px;
+    }
+    .card-overlay {
+        width: 300px;
+    }
+}
