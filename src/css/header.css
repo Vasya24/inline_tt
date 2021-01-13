@@ -5,6 +5,9 @@
     margin-right: auto;
     margin-bottom: 23px;
 }
+.burger {
+    display: none;
+}
 nav {
     display: flex;
 }
@@ -72,5 +75,28 @@ nav img {
     .nav-left-item, .nav-right-item {
         width: 74px;
         font-size: 14px;
+    }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .burger {
+        width: 20px;
+        height: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        align-self: center;
+    }
+    .burger hr {
+        height: 3px;
+        border: none;
+        background-color: #000;
+    }
+    .page-header {
+        flex-direction: row-reverse;
+        padding-top: 15px;
+    }
+    .nav-left, .nav-right {
+        display: none
     }
 }

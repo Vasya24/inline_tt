@@ -198,5 +198,67 @@
     }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-
+    .slide-front-text {
+        width: 90%;
+    }
+    .slide-front-text h1 {
+        font-size: 24px
+    }
+    .side-pics {
+        flex-direction: column;
+    }
+    .side-pic {
+        width: 100%;
+    }
+    .side-pic-back {
+        background-position: top center;
+    }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .slider {
+        width: 70%;
+    }
+    .side-pics {
+        width: 30%;
+    }
+    .side-pic-back {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .slide-front-text {
+        width: 90%;
+    }
+    .slide-front-text h1 {
+        font-size: 24px
+    }
+    .side-pics {
+        flex-direction: column;
+    }
+    .side-pic {
+        width: 100%;
+    }
+    .side-pic-content {
+        top: 60%
+    }
+    .side-pic-content h3 {
+        font-size: 24px;
+        margin-bottom: 14px;
+    }
+    .side-pic-content a {
+        font-size: 14px;
+    }
+    .side-pic-back {
+        background-position: top center;
+    }
+    .arrows {
+        margin-bottom: 120px;
+    }
+    .arrows div {
+        width: 24px;
+        height: 24px;
+        line-height: 24px;
+    }
+    .bottom-item h6 {
+        font-size: 12px;
+    }
 }

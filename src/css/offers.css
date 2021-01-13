@@ -277,3 +277,33 @@
         width: 300px;
     }
 }
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .offers-tabs {
+        flex-direction: column;
+    }
+    .offers-tab input + span, .offers-tab input:checked + span {
+        font-size: 17px
+    }
+
+    .offers-tab:nth-child(2) {
+        margin-left: unset;
+    }
+    .offers-cards {
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 280px;
+    }
+    .card-overlay {
+        width: 280px;
+    }
+    .card-body p {
+        font-size: 12px
+    }
+    .price {
+        font-size: 18px
+    }
+    .size-tag input+span {
+        width: 30px
+    }
+}

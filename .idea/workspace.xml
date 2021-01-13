@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/src/css/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/gallery.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/offers.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/offers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,7 @@
       <updated>1610365675603</updated>
       <workItem from="1610365681197" duration="39909000" />
       <workItem from="1610477249106" duration="9640000" />
-      <workItem from="1610546987627" duration="4939000" />
+      <workItem from="1610546987627" duration="8855000" />
     </task>
     <task id="LOCAL-00001" summary="Header done">
       <created>1610369703713</created>
@@ -127,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610551955636</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Responsive layout is almost done">
+      <created>1610556198435</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610556198435</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +163,7 @@
     <MESSAGE value="Cards 99% done. I'll be back there later" />
     <MESSAGE value="Approximately 90% done" />
     <MESSAGE value="Basically done 100%. Time to mane a responsive layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basically done 100%. Time to mane a responsive layout" />
+    <MESSAGE value="Responsive layout is almost done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Responsive layout is almost done" />
   </component>
 </project>
