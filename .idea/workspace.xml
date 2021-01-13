@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447965f7-c913-4c19-8e2f-1e72614c9bdd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/slides/slide2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/slides/slide3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/slides/slide4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/gallery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/pic1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/pic1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/pic2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/pic2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +67,8 @@
       <option name="presentableId" value="Default" />
       <updated>1610365675603</updated>
       <workItem from="1610365681197" duration="39909000" />
-      <workItem from="1610477249106" duration="9486000" />
+      <workItem from="1610477249106" duration="9640000" />
+      <workItem from="1610546987627" duration="1744000" />
     </task>
     <task id="LOCAL-00001" summary="Header done">
       <created>1610369703713</created>
@@ -122,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610470242303</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Approximately 90% done">
+      <created>1610546836573</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610546836577</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +145,7 @@
     <MESSAGE value="Forgotten .gitignore file added" />
     <MESSAGE value="Cards 95% done" />
     <MESSAGE value="Cards 99% done. I'll be back there later" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cards 99% done. I'll be back there later" />
+    <MESSAGE value="Approximately 90% done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Approximately 90% done" />
   </component>
 </project>

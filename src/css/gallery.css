@@ -2,6 +2,7 @@
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 60px;
 }
 .gallery > div {
     box-sizing: border-box;
@@ -157,4 +158,33 @@
     font-weight: 700;
     font-family: "Clear Sans", sans-serif;
     text-decoration: underline;
+}
+.gallery-bottom {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 100px;
+}
+.bottom-item {
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    background-color: #000;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    cursor: pointer;
+    transition: background-color .25s linear;
+}
+.bottom-item:hover {
+    background-color: #ef7f1a;
+}
+.bottom-item h6 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    text-transform: uppercase;
 }
