@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="447965f7-c913-4c19-8e2f-1e72614c9bdd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <updated>1610365675603</updated>
       <workItem from="1610365681197" duration="39909000" />
       <workItem from="1610477249106" duration="9640000" />
-      <workItem from="1610546987627" duration="13016000" />
+      <workItem from="1610546987627" duration="13275000" />
     </task>
     <task id="LOCAL-00001" summary="Header done">
       <created>1610369703713</created>
@@ -215,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610567657591</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="DONE">
+      <created>1610568076528</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1610568076528</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,8 +253,8 @@
     <MESSAGE value="Responsive layout is almost done" />
     <MESSAGE value="99% done" />
     <MESSAGE value="Margins fixed" />
-    <MESSAGE value="DONE" />
     <MESSAGE value="Pre-finish commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pre-finish commit" />
+    <MESSAGE value="DONE" />
+    <option name="LAST_COMMIT_MESSAGE" value="DONE" />
   </component>
 </project>
