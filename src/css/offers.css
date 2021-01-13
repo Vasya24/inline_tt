@@ -293,6 +293,8 @@
     }
     .card {
         width: 280px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .card-overlay {
         width: 280px;
